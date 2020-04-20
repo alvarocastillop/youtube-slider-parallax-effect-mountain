@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paralax mountain</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <nav>
+        <div id="logo"></div>
+
+        <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">blog</a></li>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="slider">
+        <div id="content-images-slider">
+            <div class="image-slider rellax" data-rellax-speed="-10" style='background-image: url(images/slider-4.png)'></div>
+            <div class="image-slider rellax" data-rellax-speed="-6" style='background-image: url(images/slider-3.png)'></div>
+            <div class="text-slider rellax" data-rellax-speed="-10">
+                <h1 id='slider-text'>MOUNTAIN</h1>
+            </div>
+            <div class="image-slider rellax" data-rellax-speed="-4" style='background-image: url(images/slider-2.png)'></div>
+            <div class="image-slider" style='background-image: url(images/slider-1.png)'></div>
+        </div>
+    </section>
+
+    <section id="content"></section>
+    
+    <script src='rellax.min.js'></script>
+    <script src='index.js'></script>
+</body>
+</html>
